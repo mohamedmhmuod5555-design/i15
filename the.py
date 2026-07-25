@@ -17,7 +17,7 @@ if sign=='*':
  sc=num1*num2
 if sign=='/':
  sc=num1/num2
-st.title("أهلا بك في لعبتي ")
+st.title("أهلا بك في لعبه اختبار الذكاء التابعه للبروفيسير محمد رياض  ")
 st.write(num1,sign,num2)
 number=st.number_input("ادخل النتيجه ")
 if st.button("تاكيد الاجابه "):
