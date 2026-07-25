@@ -26,7 +26,7 @@ if st.button("تاكيد الاجابه "):
   session_state.num=+1
  else:
   print("your answeris not true ") 
-if st.button(" السؤال التالي ")
+if st.button(" السؤال التالي "):
  del session_state.num1 
  del session_state.num2
  del session_state.sign
