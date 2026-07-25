@@ -24,7 +24,7 @@ if st.button("تاكيد الاجابه "):
  if number==sc:
   print("you are winner ")
 session_state.num=+1
- else:
+  else:
   print("your answeris not true ") 
 if st.button(" السؤال التالي "):
  del session_state.num1 
