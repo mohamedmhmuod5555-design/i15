@@ -27,8 +27,8 @@ if st.button("تاكيد الاجابه "):
  else:
   st.error("your answeris not true ") 
 if st.button(" السؤال التالي "):
- del session_state.num1 
- del session_state.num2
- del session_state.sign
+ del st.session_state.num1 
+ del st.session_state.num2
+ del st.session_state.sign
  st.rerun()
 st.write(num)
