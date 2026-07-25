@@ -22,7 +22,7 @@ st.write(num1,sign,num2)
 number=st.number_input("ادخل النتيجه ")
 if st.button("تاكيد الاجابه "):
  if number==sc:
- print("you are winner ")
+  print("you are winner ")
 session_state.num=+1
 else:
  print("your answeris not true ") 
